@@ -9,9 +9,9 @@ class AuthController extends BaseController
 {
     function __construct()
     {
-    helper('form');
+        helper('form');
     }
-    
+
     public function login()
     {
         if ($this->request->getPost()) {
@@ -44,7 +44,7 @@ class AuthController extends BaseController
 
     public function logout()
     {
-    session()->destroy();
-    return redirect()->to('login');
+        session()->destroy();
+        return redirect()->to('login');
     }
 }

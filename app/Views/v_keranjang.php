@@ -1,4 +1,4 @@
 <?= $this->extend('layout') ?>
 <?= $this->section('content') ?>
-Ini halaman keranjang
+ini halaman keranjang
 <?= $this->endSection() ?>
