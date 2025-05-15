@@ -53,7 +53,11 @@ if (uri_string() != "") {
     <main id="main" class="main">
 
         <div class="pagetitle">
+<<<<<<< HEAD
             <h1><?php echo $hlm ?></h1>
+=======
+            <h1>Data Tables</h1>
+>>>>>>> 86f51c552727331f30ccbaa63570d766d814d880
             <nav>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">Home</li>

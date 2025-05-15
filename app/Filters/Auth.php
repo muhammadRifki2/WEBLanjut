@@ -21,9 +21,12 @@ class Auth implements FilterInterface
     public function after(RequestInterface $request, ResponseInterface $response, $arguments = null)
     {
         // Do something here
+<<<<<<< HEAD
         $session = session();
         if ($session -> getFlashdata('logged_in')){
             return redirect()->to('/profil');
         }
+=======
+>>>>>>> 86f51c552727331f30ccbaa63570d766d814d880
     }
 }

@@ -25,6 +25,7 @@
                     <span>Produk</span>
                 </a>
             </li><!-- End Produk Nav -->
+<<<<<<< HEAD
 
             <li class="nav-item">
                 <a class="nav-link <?php echo (uri_string() == 'profil') ? "" : "collapsed" ?>" href="profil">
@@ -38,6 +39,8 @@
                     <span>F.A.Q</span>
                 </a>
             </li><!-- End Produk Nav -->
+=======
+>>>>>>> 86f51c552727331f30ccbaa63570d766d814d880
         <?php
         }
         ?>
